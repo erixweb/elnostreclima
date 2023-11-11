@@ -1,0 +1,17 @@
+<script>
+    import Header from "$lib/header.svelte"
+    const TITLE = "Situació d'alarma tras +1000 terretremols a Islandia en 24 hores"
+</script>
+<Header 
+    title={TITLE}
+    image="https://cdn.discordapp.com/attachments/1152239048220475516/1172948047374860339/image.webp?ex=65622bfe&is=654fb6fe&hm=a008095605f2b89eba3f342ede51af14aac7f3b693b74560822951e392adf12e&"
+>
+    <h1>{TITLE}</h1>
+    <strong>
+        Islandia ha detectat 1000 terretremols en un dia
+    </strong>
+    <p>
+        Publicat per <a href="https://twitter.com/erixweb" target="_blank">Erik</a>
+    </p>
+</Header>
+Avui, 11 de Novembre, Islandia ha declarat la situació d'emergència davant de la posible erupció d'un volcà.
